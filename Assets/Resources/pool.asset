@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7119c95a353b1941b5c394e3ca69977, type: 3}
+  m_Name: pool
+  m_EditorClassIdentifier: 
+  PoolList:
+  - Name: ClickMove
+    Prefab: {fileID: 119942, guid: 3e7f3847f1c8fcd43b97b10df7a3d76a, type: 3}
+    MaxCount: 2
+  - Name: atkTurret
+    Prefab: {fileID: 8002011542070928415, guid: 5db55552e6f128a4fb5b760e74c0f4ec, type: 3}
+    MaxCount: 2
+  - Name: E
+    Prefab: {fileID: 3231746544934757958, guid: df1c176308463704a851479a31d36f51, type: 3}
+    MaxCount: 2
